@@ -1,4 +1,5 @@
 import { Col } from "react-bootstrap";
+import navIcon4 from "../assets/img/nav-icon4.svg";
 
 export const ProjectCard = ({ title, description, imgUrl }) => {
   return (
@@ -8,6 +9,9 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>
+          <div className="icon-projects">
+              <a href="https://github.com/KaraniAbdellah/startup_start" target="_blank"><img src={navIcon4} alt="Icon" /></a>
+          </div>
         </div>
       </div>
     </Col>

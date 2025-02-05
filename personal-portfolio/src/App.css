@@ -538,6 +538,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
+.icon-projects {
+  margin-top: 10px; /* مسافة فوق الأيقونة */
+  display: flex; /* استخدام Flexbox لتوسيع الأيقونة */
+  justify-content: center; /* توسيط الأيقونة */
+}
+
+.icon-projects img {
+  width: 24px; /* عرض الأيقونة */
+  height: 24px; /* ارتفاع الأيقونة */
+  transition: transform 0.3s; /* تأثير الانتقال عند التمرير */
+}
+
+.icon-projects img:hover {
+  transform: scale(1.1); /* تكبير الأيقونة عند التمرير */
+}
+
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
